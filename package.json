@@ -1,15 +1,10 @@
 {
-  "name": "dotenv-checker",
-  "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "name": "dotenv-fast-checker",
+  "version": "0.0.1",
+  "description": "A program for validating and checking environment variables.",
+  "main": "EnvChecker.mjs",
+  "scripts": {},
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "dotenv": "^16.4.5"
-  }
+  "author": "https://github.com/zaksiu12s",
+  "license": "MIT"
 }
