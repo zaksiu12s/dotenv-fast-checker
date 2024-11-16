@@ -1,6 +1,6 @@
 {
   "name": "dotenv-fast-checker",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A program for validating and checking environment variables.",
   "main": "./index.mjs",
   "types": "./index.d.ts",
@@ -8,7 +8,7 @@
   "keywords": [],
   "author": "https://github.com/zaksiu12s",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "dotenv": "^16.4.5"
   }
 }
