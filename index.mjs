@@ -1,4 +1,5 @@
 import "dotenv/config";
+import fs from "fs";
 
 const EnvChecker = {};
 
@@ -47,5 +48,15 @@ function validateType(value, type, name) {
       throw new Error(`Checking for ${type} type is not supported`);
   }
 }
+
+EnvChecker.fileCheck = function fileCheck() {
+  const envFilePath = "./.env";
+
+  if (fs.existsSync(envFilePath)) {
+    return true;
+  } else {
+    throw new Error(".env file does not exist.");
+  }
+};
 
 export default EnvChecker;
